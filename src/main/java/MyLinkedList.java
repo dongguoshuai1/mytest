@@ -4,7 +4,7 @@ import java.util.Iterator;
  * @author dong
  * @Title: MyLinkedList
  * @ProjectName esTest
- * @Description: TODO
+ * @Description: 测试
  * @date 2019/4/30下午 1:44
  */
 public class MyLinkedList<T> implements Iterable<T> {
