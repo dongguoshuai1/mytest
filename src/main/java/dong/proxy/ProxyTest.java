@@ -16,7 +16,7 @@ public class ProxyTest {
         ProxyTestInnerInferface proxyObj = (ProxyTestInnerInferface)Proxy.newProxyInstance(ProxyTest.class.getClassLoader(),
                 ProxyTestInner.class.getInterfaces(),
                 new MyInvocationHandler(new ProxyTestInner()));
-        proxyObj.invoke1();
+        System.out.print(proxyObj.hashCode());
     }
 
     private interface ProxyTestInnerInferface{
